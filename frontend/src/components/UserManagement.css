@@ -1,0 +1,53 @@
+.user-management {
+  padding: 20px;
+  border-top: 1px solid #e1e4e8;
+}
+
+.edit-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+}
+
+.form-group textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.management-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.delete-button {
+  background-color: #d73a49;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #cb2431;
+} 

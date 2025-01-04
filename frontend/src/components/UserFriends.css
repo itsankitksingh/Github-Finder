@@ -1,0 +1,26 @@
+.friends-list {
+  padding: 20px;
+  border-top: 1px solid #e1e4e8;
+}
+
+.friends-list h2 {
+  margin: 0 0 20px 0;
+  font-size: 20px;
+}
+
+.friend-item {
+  padding: 12px;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.friend-item:hover {
+  background-color: #f6f8fa;
+}
+
+.friend-username {
+  color: #0366d6;
+  font-weight: 500;
+} 
